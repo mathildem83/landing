@@ -1,0 +1,32 @@
+.cards{
+  display: flex;
+  justify-content:space-between;
+  overflow:hidden;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  box-shadow: 1px 0 7px grey;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card:last-child{
+  margin-bottom: 50px;
+}
+
+.card img{
+  width:140px;
+}
+
+.card p{
+  color:gray;
+}
+
+.text-center{
+  text-align: center;
+}

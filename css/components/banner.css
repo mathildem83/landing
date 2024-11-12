@@ -1,0 +1,20 @@
+.banner{
+  background-size: cover;
+  background-position: bottom;
+  overflow:hidden;
+}
+
+.banner h1{
+  color: white;
+}
+
+.banner p{
+  color: gray;
+  font-size:15px;
+  padding-bottom: 15px;
+}
+
+.filter{
+  background-color: rgba(0, 0, 0, 0.329);
+  padding: 100px 0;
+}
